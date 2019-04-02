@@ -14,6 +14,7 @@
 
 <?php
 echo $select;
+echo $table;
 
 ?>
 

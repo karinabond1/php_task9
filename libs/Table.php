@@ -15,6 +15,11 @@ class Table
 
     public function table()
     {
-        
+        $str = "<table name='".$this->name."' class='".$this->class."' >";
+        foreach($this->rows as $row){
+            $str.="<tr><td>".$row."</td></tr>";
+        }
+        $str.="</table>";
+        return $str;
     }
 }
