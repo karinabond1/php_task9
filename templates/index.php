@@ -17,6 +17,9 @@ echo $select;
 echo $table;
 echo $ul;
 echo $ol;
+echo $dl;
+echo $radioButttons;
+echo $checkbox;
 
 ?>
 
