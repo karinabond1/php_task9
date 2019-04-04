@@ -3,6 +3,16 @@
     color: rgb(79, 12, 145);
 }
 .table-check{
-    margin: 50px;
-    color: rgb(13, 68, 13);
+    margin: 10px;
+    color: rgb(17, 110, 17);
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+.ul-global{
+    color: rgb(112, 10, 15);
 }

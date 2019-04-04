@@ -15,6 +15,8 @@
 <?php
 echo $select;
 echo $table;
+echo $ul;
+echo $ol;
 
 ?>
 

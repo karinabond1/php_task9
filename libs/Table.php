@@ -16,8 +16,12 @@ class Table
     public function table()
     {
         $str = "<table name='".$this->name."' class='".$this->class."' >";
-        foreach($this->rows as $row){
-            $str.="<tr><td>".$row."</td></tr>";
+        foreach($this->rows as $key=>$row){
+            $str.="<tr>";
+            foreach($row as $key2=>$row2){
+                $str.="<td>".$row2."</td>";
+            }
+            $str.="</tr>";
         }
         $str.="</table>";
         return $str;
